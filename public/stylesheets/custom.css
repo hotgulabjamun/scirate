@@ -1,0 +1,62 @@
+/* The main navigation menu, login, help, etc.
+*/
+
+
+nav {
+  float: right;
+}
+
+nav {
+  background-color: white;
+  padding: 0 0.7em;
+  white-space: nowrap;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0.2em 0;
+}
+
+nav ul li a {
+  padding: 0 5px;
+  font-weight: bold;
+}
+
+nav ul li a:visited {
+  color: #666;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+#header img {
+  padding: 1em;
+}
+
+#main {
+  background: #eee;
+}
+
+#main-text {
+  padding: 1em;
+}
+
+#sidebar {
+  background: #eee;
+}
+
+#sidebar-text{
+  padding: 1em;
+}
+
+#footer{
+  padding: 1em;
+  text-align: center;
+}
